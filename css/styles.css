@@ -1,0 +1,57 @@
+/* base */
+:root{
+    --color-brand-light: #819B57;
+    --color-brand-dark: #465929 ;
+    --color-primary-dark: #31261A;
+    --color-secondary-dark: #A18268;
+    --color-primary-light: #FAF4EA;
+    --color-secondary-light: #CFCFBC;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    color: var(--color-primary-dark);
+}
+/* navigation */
+.header-nav{
+    color: var(--color-primary-light);
+    font-weight: 400;
+    font-size: 18px;
+}
+.header-nav:hover {
+    color: var(--color-brand-light);
+    font-weight: 600;
+    font-size: 18px;
+}
+/* button */
+.button-callback{
+    border-radius: 8px;
+    border: 2px solid var(--color-brand-light);
+    background-color: var(--color-brand-light);
+    color: var(--color-primary-light);
+    cursor: pointer;
+}
+.button-callback:hover{
+    background-color: transparent;
+    color: var(--color-brand-dark);
+}
+/* hero */
+.hero-title{
+    color:var(--color-primary-light) ;
+}
+.hero-title .accent{
+    color: var(--color-brand-light);
+}
+/* adventages */
+.adventages-list{
+    background-color: var(--color-brand-light);
+    color: var(--color-primary-light);
+}
+/* section */
+.section-title{
+    color: var(--color-primary-dark);
+}
+.section-title .dark-accent{
+    color: var(--color-brand-dark);
+}
